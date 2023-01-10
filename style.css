@@ -1,0 +1,73 @@
+	body{
+		margin: 0;
+		font-family: sans-serif;
+		background-image: url("images/header-bg.png");
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.oranage-highlighter{
+		color: orange;
+	}
+	h1{
+		font-size: 47px;
+	}
+	h2{
+		font-size: 30px;
+	}
+	p{
+		text-align: justify;
+		color: dimgray;
+	}
+	.half-width{
+		width: 40%;
+		float: left;
+		margin-left: 5%;
+		padding-left: 2%;
+	}
+	.half-width img{
+		width: 100%;
+	}
+	section{
+		height: 500px;
+		padding-bottom: 100px;
+	}
+	.link-button{
+		text-decoration: none;
+		background-image: linear-gradient(45deg,orange,orangered);
+		color: white;
+		padding: 10px 20px;
+		border-radius: 5px;
+		font-weight: bold;
+
+	}
+	
+	.box-shadow{
+		box-shadow: 10px 10px 30px gray;
+		border-radius: 10px;
+		height: 60%;
+
+	}
+	.gitlink-button{
+		text-decoration: none;
+		background-image: linear-gradient(45deg,blue,cyan);
+		color: white;
+		padding: 1px 10px;
+		border-radius: 5px;
+		font-weight: bold;
+	}
+	#php{
+		border-left: 7px solid;
+		border-image: linear-gradient(180deg,orange,yellow);
+		border-image-slice: 1;
+	}
+	#Full-Stack{
+		border-left: 7px solid;
+		border-image: linear-gradient(180deg,blue,cyan);
+		border-image-slice: 1;
+	}
+	.footer{
+		font-size: 12px; text-align: center;
+		margin-top: 23%;
+
+	}
